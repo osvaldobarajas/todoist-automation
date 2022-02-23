@@ -2,9 +2,9 @@ import loginPage from '../page/login.page';
 import dashboardPage from '../page/dashboard.page';
 import dataProvider from '../data/data.provider.json';
 
-const BASE_URL = dataProvider.baseUrl;
-const EMAIL = dataProvider.email;
-const PASSWORD = dataProvider.password;
+const BASE_URL         = dataProvider.baseUrl;
+const EMAIL            = dataProvider.email;
+const PASSWORD         = dataProvider.password;
 const INVALID_PASSWORD = dataProvider.invalidPassword;
 
 fixture `Login tests`
