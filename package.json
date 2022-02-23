@@ -1,0 +1,30 @@
+{
+  "name": "todoist-automation",
+  "version": "1.0.0",
+  "description": "Frontend automation challenge ",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./src/todoist/test/login.test.js",
+    "test:chrome:headless": "testcafe chrome:headless ./src/todoist/test/login.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osvaldobarajas/todoist-automation.git"
+  },
+  "keywords": [
+    "Automation",
+    "End",
+    "to",
+    "End",
+    "TestCafe"
+  ],
+  "author": "Osvaldo Barajas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osvaldobarajas/todoist-automation/issues"
+  },
+  "homepage": "https://github.com/osvaldobarajas/todoist-automation#readme",
+  "dependencies": {
+    "testcafe": "^1.18.4"
+  }
+}
