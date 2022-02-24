@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:chrome": "testcafe chrome ./src/todoist/test/login.test.js",
-    "test:chrome:headless": "testcafe chrome:headless ./src/todoist/test/login.test.js"
+    "test:chrome:headless": "testcafe chrome:headless ./src/todoist/test/login.test.js",
+    "test:chrome:task": "testcafe chrome ./src/todoist/test/task.test.js"
   },
   "repository": {
     "type": "git",
