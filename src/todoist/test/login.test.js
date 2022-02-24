@@ -11,8 +11,8 @@ fixture `Login tests`
     .page `${BASE_URL}`;
 
 /*
-Test Case: User must not login with an invalid email and password
-Expected: The app should notify the user that the email or password is invalid
+    Test Case: User must not login with an invalid email and password
+    Expected: The app should notify the user that the email or password is invalid
 */
 test('User must not login with an invalid email and password', async t => {
     await loginPage.login(EMAIL, INVALID_PASSWORD);
@@ -20,8 +20,11 @@ test('User must not login with an invalid email and password', async t => {
 });
 
 /*
-Test Case: User must login with a valid email and password
-Expected: The user should be redirected to the dashboard page and see the main title
+*/
+
+/*
+    Test Case: User must login with a valid email and password
+    Expected: The user should be redirected to the dashboard page and see the main title
 */
 test('User must login with a valid email and password', async t => {
     await loginPage.login(EMAIL, PASSWORD);

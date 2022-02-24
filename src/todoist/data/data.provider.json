@@ -2,5 +2,7 @@
     "baseUrl": "https://todoist.com/users/showlogin",
     "email": "todoitstest@gmail.com",
     "password": "T35t@t0d0i5t",
-    "invalidPassword": "test123456"
+    "invalidPassword": "test123456",
+    "taskTitle": "Task",
+    "taskDescription": "Task description"
 }
