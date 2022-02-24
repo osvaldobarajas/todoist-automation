@@ -25,6 +25,6 @@ test('User can create a new task', async t => {
     await taskPage.addTask(TASK_TITLE, TASK_DESC);
     await t.wait(2000);
     for(let i=0; i < dashboardPage.taskList.count; i++){
-        await t.expect(dashboardPage.taskList.nth(i).innerText).eql(TASK_TITLE);
+        await t.expect(dashboardPage.taskList.nth(i).withText(TASK_TITLE).exists).ok();
     }
 });
