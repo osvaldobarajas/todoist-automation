@@ -18,10 +18,7 @@ test('User must not login with an invalid email and password', async t => {
     await loginPage.login(EMAIL, INVALID_PASSWORD);
     await t.expect(loginPage.errorMsg.exists).ok();
 });
-
-/*
-*/
-
+n
 /*
     Test Case: User must login with a valid email and password
     Expected: The user should be redirected to the dashboard page and see the main title
